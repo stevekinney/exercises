@@ -1,3 +1,4 @@
+
 module.exports = (first, second) => {
   if (!first || !second) { return false; }
 
