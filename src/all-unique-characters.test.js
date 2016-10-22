@@ -5,5 +5,5 @@ it('should return true if all of the characters in the string are unique', () =>
 });
 
 it('should return false if not all of the characters in the string are unique', () => {
-  expect(hasAllUniqueCharacters('aaa')).toBe(false);
+  expect(hasAllUniqueCharacters('aba')).toBe(false);
 });

@@ -13,7 +13,7 @@ it('should ignore spaces', () => {
 });
 
 it('should ignore numbers', () => {
-  expect(isAnagram('potato', 'po9tato')).toBe(true);
+  expect(isAnagram('potato9', 'po9tato')).toBe(true);
 });
 
 it('should be case insensitive', () => {
