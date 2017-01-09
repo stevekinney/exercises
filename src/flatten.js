@@ -1,5 +1,7 @@
 const flatten = (array, output = []) => {
-  for (let e of array) Array.isArray(e) ? flatten(e, output) : output.push(e);
+  for (let e of array) {
+    Array.isArray(e) ? flatten(e, output) : output.push(e);
+  }
   return output;
 };
 
